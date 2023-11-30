@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{dd3a7479-88b1-4dfe-80a9-53c4a9e69f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c911d0b3-f42b-4bf1-81b0-9eb7c579a2ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility">
+      <UniqueIdentifier>{f904dd54-3693-495c-a874-6d13e63cbd4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Singleton">
+      <UniqueIdentifier>{f9687b20-b49e-47f1-8161-b299d9e5fee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\Timer">
+      <UniqueIdentifier>{a69ede22-f97a-468d-932f-6d78191ddd47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Utility\pch">
+      <UniqueIdentifier>{f55ba97f-8e7d-4c69-a0c1-b72a2b377fdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\System">
+      <UniqueIdentifier>{0eb361c5-a7dd-4725-9f1f-4a9fa4d7489c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture">
+      <UniqueIdentifier>{a165b48c-f82c-41ce-a799-8453a07457d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Asset">
+      <UniqueIdentifier>{de867662-cd55-4fbb-9c85-52ae5119e2e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\D3D">
+      <UniqueIdentifier>{dd476bad-4fcc-4578-8014-b83c7394260f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\World">
+      <UniqueIdentifier>{6fa4c01c-8944-4daa-b4c7-e7adde472025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite">
+      <UniqueIdentifier>{9172132d-71ed-4876-b6b6-48a4bc0ef988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Camera">
+      <UniqueIdentifier>{4b38ab0c-83a2-4eb1-b6b4-0c8b178a76db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader">
+      <UniqueIdentifier>{d5b2179d-571f-4172-8030-aae1b65d7e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader\HLSL">
+      <UniqueIdentifier>{bcc5f6eb-f610-4cb2-a3e2-24dc5285aabe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Entity">
+      <UniqueIdentifier>{d98e2986-642b-4aff-a1c6-f0e8a59ea0ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{de9ecd72-c944-40b9-8f7a-3d19c1bb4bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture\Bitmap">
+      <UniqueIdentifier>{2f291924-2ccf-41bd-94fe-16b87a0a4cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Shader\ShaderClass">
+      <UniqueIdentifier>{cf1f812d-b318-484f-b3d5-b54ba57d5476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animation">
+      <UniqueIdentifier>{0b5023a9-31dc-48f4-8c0f-8ae7f67db628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Light">
+      <UniqueIdentifier>{0a536c98-3f7d-42da-a29a-57f39552cbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{af16a0e0-41e0-4bf8-8d29-125e66b8da50}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Engine\Utility\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Engine\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D.cpp">
+      <Filter>Engine\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>Engine\Texture\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureShader.cpp">
+      <Filter>Engine\Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Engine\Utility\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="LightShader.cpp">
+      <Filter>Engine\Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Engine\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Engine\Utility\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Engine\Utility\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Engine\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Asset.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D.h">
+      <Filter>Engine\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>Engine\Texture\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureShader.h">
+      <Filter>Engine\Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Utility\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="LightShader.h">
+      <Filter>Engine\Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Engine\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shader\Texture.ps">
+      <Filter>Engine\Shader\HLSL</Filter>
+    </None>
+    <None Include="..\Shader\Texture.vs">
+      <Filter>Engine\Shader\HLSL</Filter>
+    </None>
+    <None Include="..\Shader\Light.ps">
+      <Filter>Engine\Shader\HLSL</Filter>
+    </None>
+    <None Include="..\Shader\Light.vs">
+      <Filter>Engine\Shader\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
